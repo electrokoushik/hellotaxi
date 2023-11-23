@@ -1,0 +1,429 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	/* Header Start */
+	.logo{
+		padding: 10px 0px;
+	}
+	.menu ul li{
+		padding: 0px 0px;
+	}	
+	.menu ul li a{
+		width: fit-content;
+		margin: 0 0 10px;
+		padding: 0 0 !important;
+	}
+	.animationBorderBottom:after{
+		border-bottom: 2px solid #ffc300;
+	}
+	/* Header End */
+	/* Banner Start */
+	.banner{
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.b_text h1 {
+		margin: 5px 0px;
+		font-size: 32px;
+	}
+	.b_text p {
+		letter-spacing: 0px;
+	}
+	.b_anim_taxi{
+		width: 70px;
+		height: 70px;
+		top: 47%;
+	}
+	@keyframes animationTaxi{
+		0%{left: 0px;}
+		80%{opacity: 1;}
+		100%{
+			left:460px;
+			opacity: 0; 
+		}
+	}		
+	.b_anim_cloud ul li {
+		width: 55px;
+		height: 55px;
+	}
+	.b_anim_cloud ul li:nth-child(2){
+		top: 50px;
+	}
+	/* Banner End */
+	/* About Us Start */
+	.about_us{
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.cmn_section{
+		margin-bottom: 10px;
+	}	
+	.cmn_section h2{
+		font-size: 32px;	
+	}
+	.aus_p{
+		padding: 15px;
+	}
+	.about_us h3{
+		font-size: 20px;
+	}	
+	.about_us p{
+		font-size: 16px;
+	}	
+	/* About Us End */
+	/* Our Service Start */
+	.services{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.s_card{
+		display: block;
+		border-radius: 0px;
+		padding: 0 5px 5px;
+		background-color: transparent;
+		box-shadow: none;		
+	}
+	.s_img_bg{
+		width: 100px;
+		height: 100px;
+		position: relative;
+		margin: 0px auto;
+		left: 0px;
+	}	
+	.s_text_bg{
+		margin-left: 0px;
+		margin-top: -48px;
+		border: 5px solid #ffc300;
+		box-shadow: 0px 10px 15px rgb(0 0 0 / 10%);
+	}
+	.s_text{
+		margin-left: 0px;
+		margin-top: 40px;
+	}
+	/* Our Service End */
+	/* Special Features Start */
+		.features{
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}	
+		.f_card{
+			display: block;
+		}
+		.f_card .box {
+			margin: 20px 6px;
+			padding: 10px;
+		}	
+	/* Special Features End */
+	/* Testimonial Start */
+	.testimonial{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.outer{
+		overflow-y: hidden;
+		overflow-x: visible;
+	}
+	.t_card{
+		margin: 0px 5px;
+	}
+	.t_content h4{
+		font-size: 28px;
+	}	
+	/* Testimonial End */	
+	/* Contact Us Start */
+	.contact{
+		padding-top: 30px;
+	}
+	.contact_left{
+		text-align: center;
+	}
+	.contact_left div{
+		justify-content: center;
+	}
+	.contact_left address{
+		display: block;
+	}
+	/* Contact Us End */	
+}
+
+/* Special Devices (Iphone SE, Xr, ) */
+@media (min-width: 360px) and (max-width: 425px) {
+	/* Header Start */
+	.menu ul li{
+		padding: 0px 0px;
+	}	
+	/* Header End */
+	/* Banner Start */
+	.b_anim_taxi{
+		top: 51.5%;		
+	}
+	@keyframes animationTaxi{
+		0%{left: 0px;}
+		80%{opacity: 1;}
+		100%{
+			left:560px;
+			opacity: 0; 
+		}
+	}		
+	/* Banner End */	
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/* Header Start */
+	.logo{
+		padding: 10px 0px;
+	}
+	.menu ul li{
+		padding: 0px 0px;
+	}	
+	.menu ul li a{
+		width: fit-content;
+		margin: 0 0 10px;
+		padding: 0 0 !important;
+	}
+	.animationBorderBottom:after{
+		border-bottom: 2px solid #ffc300;
+	}
+	/* Header End */
+	/* Banner Start */
+	.banner{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.b_text h1{
+		margin: 20px 0px;
+		font-size: 46px;
+	}
+	.b_anim_taxi{
+		width: 80px;
+		height: 80px;
+		top: 55.8%;
+	}
+	@keyframes animationTaxi{
+		0%{left: 0px;}
+		80%{opacity: 1;}
+		100%{
+			left:660px;
+			opacity: 0; 
+		}
+	}	
+	.b_anim_cloud ul li{
+		width: 85px;
+		height: 85px;
+	}
+	/* Banner End */
+	/* About Us Start */
+	.about_us{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.cmn_section{
+		margin-bottom: 20px;
+	}	
+	.cmn_section h2{
+		font-size: 46px;	
+	}
+	.aus_p{
+		padding: 0px 0px 20px;
+	}
+	.about_us h3{
+		font-size: 28px;
+	}	
+	.about_us p{
+		font-size: 16px;
+	}	
+	/* About Us End */
+	/* Our Service Start */
+	.services{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.s_card{
+		border-radius: 0px;
+		padding: 0px;
+	}	
+	.s_text_bg{
+		border-right: 5px solid #ffc300;
+	}
+	/* Our Service End */
+	/* Special Features Start */
+	.features{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}	
+	.f_card{
+		display: block;
+	}
+	/* Special Features End */	
+	/* Testimonial Start */
+	.testimonial{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.outer{
+		height: 722px;
+	}
+	.t_card{
+		margin: 0px;
+	}
+	.t_content h4{
+		font-size: 28px;
+	}
+	/* Testimonial End */	
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px){
+	/* Header Start */
+	.logo{
+		padding: 10px 0px;
+	}
+	.menu ul li{
+		padding: 0px 0px;
+	}	
+	.menu ul li a{
+		width: fit-content;
+		margin: 0 0 10px;
+		padding: 0 0 !important;
+	}
+	.animationBorderBottom:after{
+		border-bottom: 2px solid #ffc300;
+	}
+	/* Header End */
+	/* Banner Start */
+	.banner{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.b_anim_taxi{
+		top: 57.5%;
+	}
+	.b_anim_cloud ul li{
+		width: 95px;
+		height: 95px;
+	}
+	/* Banner End */	
+	/* About Us Start */
+	.about_us{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.cmn_section h2{
+		font-size: 46px;	
+	}
+	.aus_p{
+		
+	}	
+	.about_us p{
+		font-size: 16px;
+	}	
+	/* About Us End */
+	/* Our Service Start */
+	.services{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.s_card{
+		border-radius: 0px;
+		padding: 0px;
+	}	
+	.s_text_bg{
+		border-right: 5px solid #ffc300;
+	}
+	/* Our Service End */
+	/* Special Features Start */
+	.features{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}	
+	.f_card{
+		display: block;	
+	}
+	/* Special Features End */
+	/* Testimonial Start */
+	.testimonial{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.outer{
+		height: 570px;
+	}
+	.t_content h4{
+		font-size: 32px;
+	}
+	/* Testimonial End */	
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px){ 
+	/* Banner Start */
+	.banner{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.b_anim_taxi{
+		top: 53%;
+	}
+	.b_anim_cloud ul li {
+		width: 95px;
+		height: 95px;
+	}
+	/* Banner End */
+	/* About Us Start */
+	.about_us{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.cmn_section h2{
+		font-size: 46px;
+	}
+	.about_us p{
+		font-size: 16px;
+	}	
+	/* About Us End */	
+	/* Our Services Start */
+	.services{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.s_text_bg{
+		padding: 15px;
+	}
+	.s_text p{
+		line-height: 22px;
+	}		
+	/* Our Services End */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px){ 
+	/* Banner Start */
+	.b_anim_taxi{
+		top: 56%;
+	}
+	.b_anim_cloud ul li{
+		width: 95px;
+		height: 95px;
+	}
+	/* Banner End */
+	/* About Us Start */
+	.cmn_section h2{
+		font-size: 48px;
+		color: #ffc300;	
+	}
+	.about_us p{
+		font-size: 17px;
+		line-height: 24px;
+	}
+	/* About Us End */
+	/* Our Services Start */
+	.s_text p{
+		line-height: 22px;
+	}	
+	/* Our Services End */
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+	
+}
